@@ -10,7 +10,7 @@
 <body>
     
       <div class="wrapper-container">
-              <div class="dashboardContainer">
+             <div class="dashboardContainer">
           <div class="wrapper-small">
             <div class="smallboard name">
               <input id="username" type="text">
@@ -27,18 +27,36 @@
               </div>
              </div> 
             
-            <div class="smallboard generatebackground"> <button class="fetchNewImageBtn">Backgorund</button></div>
+            <div class="smallboard generatebackground"> <button class="fetchNewImageBtn">Backgrund</button></div>
           </div>
          <div class="wrapper-board">
-            <div class="board weather"></div>
-            <div class="board links"></div>
-            <div class="board news"></div>
-            <div class="board notes"></div>
+            <div class="board weather">
+              <div id="weatherData">
+
+              </div>
+            </div>
+            <div class="board links">
+              <label for="combinedInput"></label>
+              <input type="text" id="combinedInput" placeholder="Enter link or name">
+              <div class="linkcontainer">
+                <div id="containers"></div>
+              </div>
+            </div>
+          
+                <div class="board quotes">
+              <div id="quoteContainer"></div>
+            </div>
+            <div class="board notes">
+              <textarea id="notes"></textarea>
+            </div>
          </div>
         
+          
+            </div>
+        
            
-         </div>
-      </div>
+        </div>
+        </div>
    
       
 
